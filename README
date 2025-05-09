@@ -1,0 +1,23 @@
+# Geopoint Cleaning Protocol in R
+
+This repository contains a reproducible protocol for cleaning GPS-based geopoint data using R. It is designed for use with field-collected spatial datasets such as those from agricultural trials, ecological surveys, and mobile data collection platforms (e.g., ODK, KoboToolbox).
+
+## Project Structure
+
+- `geopoint-cleaning.qmd`: A Quarto document outlining the step-by-step cleaning procedure.
+- `LICENSE`: This project is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+- `README.md`: You are here.
+
+## Features
+
+- Validates coordinate ranges
+- Detects malformed, missing, or swapped coordinates
+- Identifies duplicates and unrealistic outliers
+- Compatible with `sf`, `dplyr`, and `CoordinateCleaner` R packages
+- Designed for reproducibility and publication
+
+## How to Use
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/geopoint-cleaning-r.git
