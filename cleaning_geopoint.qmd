@@ -1,38 +1,21 @@
 ---
-title: "Geopoint Cleaning in R"
+title: "Cleaning Geopoint Data from Agricultural Experiments"
 author:
-  - name: "Timothy Murrell"
-    affiliation: "1,2"
-    orcid: "0000-0001-2345-6789"
-    email: "timothy@example.com"
-    author-index: 1
-  - name: "Jane Doe"
-    affiliation: "2"
-    orcid: "0000-0002-9876-5432"
-    email: "jane.doe@example.com"
-    author-index: 2
-
-affiliations:
-  - id: 1
-    name: "African Plant Nutrition Institute"
-  - id: 2
-    name: "Université Mohamed VI Polytechnique"
-
-abstract: |
-  This protocol outlines a reproducible R-based method for cleaning GPS-based geopoint data collected in the field.
-
-editor: visual
+  - name: "Your Name"
+    affiliation: "Your Institution"
+    email: "your.email@example.com"
 format:
-  pdf:
-    template: elsevier-extended.tex
-    pdf-engine: lualatex
+  plos-pdf:
+    keep-tex: true
+bibliography: references.bib
+csl: plos.csl
 ---
 
-## Quarto
+# Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-## Running Code
+# Running Code
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
