@@ -1,0 +1,13 @@
+project:
+  type: default
+
+format:
+  pdf:
+    documentclass: article
+    toc: true
+    number-sections: true
+    fontsize: 11pt
+    geometry: margin=2.5cm
+    papersize: a4
+    keep-tex: true
+    author-title: "block"
