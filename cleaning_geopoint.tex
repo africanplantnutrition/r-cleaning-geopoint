@@ -156,6 +156,9 @@
 \fancyheadoffset[L]{2.25in}
 \fancyfootoffset[L]{2.25in}
 \lfoot{\today}
+% Remove comment for double spacing
+% \usepackage{setspace}
+% \doublespacing
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -201,8 +204,8 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={Cleaning Geopoint Data from Agricultural Experiments},
-  pdfauthor={Your Name},
+  pdftitle={A Procedure for Cleaning Geopoint Data in R},
+  pdfauthor={T. Scott Murrell; Bernice Limo},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
@@ -215,16 +218,20 @@
 % Title must be 250 characters or less.
 \begin{flushleft}
 {\Large
-\textbf\newline{Cleaning Geopoint Data from Agricultural
-Experiments} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
+\textbf\newline{A Procedure for Cleaning Geopoint Data in
+R} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
 }
 \newline
 \\
 % Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
-Your Name\textsuperscript{1}
+T. Scott Murrell\textsuperscript{1,2,3\Yinyang*}, Bernice
+Limo\textsuperscript{1\Yinyang}
 \\
 \bigskip
-\textbf{1} Your Institution, 
+\textbf{1} African Plant Nutrition
+Institute, Benguérir, Morocco, \\ \textbf{2} Université Mohammed VI
+Polytechnique, Benguérir, Morocco, \\ \textbf{3} Purdue University, West
+Lafayette, Indiana, USA, 
 \bigskip
 
 % Insert additional author notes using the symbols described below. Insert symbol callouts after author names as necessary.
@@ -250,9 +257,13 @@ Your Name\textsuperscript{1}
 \textpilcrow Membership list can be found in the Acknowledgments section.
 
 % Use the asterisk to denote corresponding authorship and provide email address in note below.
+* s.murrell@apni.net
 
 \end{flushleft}
 
+\section*{Abstract}
+A procedure was developed to clean geopoint data collected from
+smartphones.
 
 
 \linenumbers
@@ -284,7 +295,7 @@ output is displayed).
 
 
 \nolinenumbers
-  \bibliography{references.bib}
+  \bibliography{bibliography.bib}
 
 
 \end{document}

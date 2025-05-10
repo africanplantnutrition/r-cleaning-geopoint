@@ -1,14 +1,49 @@
 ---
-title: "Cleaning Geopoint Data from Agricultural Experiments"
-author:
-  - name: "Your Name"
-    affiliation: "Your Institution"
-    email: "your.email@example.com"
+title: "A Procedure for Cleaning Geopoint Data in R"
 format:
   plos-pdf:
-    keep-tex: true
-bibliography: references.bib
-csl: plos.csl
+    number-sections: false
+    journal:
+      id: plosone
+    include-in-header:
+      text: |
+        % Remove comment for double spacing
+        % \usepackage{setspace} 
+        % \doublespacing
+author:
+  - name: T. Scott Murrell
+    equal-contributor: true
+    affiliations:
+      - ref: aff1
+      - ref: aff2
+      - ref: aff3
+    corresponding: true
+    email: s.murrell@apni.net
+  - name: Bernice Limo
+    equal-contributor: true
+    affiliations:
+      - ref: aff1
+author-notes:
+  equal-contributor: These authors contributed equally to this work.
+affiliations:
+  - id: aff1
+    name: African Plant Nutrition Institute
+    city: Benguérir
+    state:
+    country: Morocco
+  - id: aff2
+    name: Université Mohammed VI Polytechnique
+    city: Benguérir
+    state: 
+    country: Morocco
+  - id: aff3
+    name: Purdue University
+    city: West Lafayette
+    state: Indiana
+    country: USA
+abstract: |
+  A procedure was developed to clean geopoint data collected from smartphones.
+bibliography: bibliography.bib 
 ---
 
 # Quarto
