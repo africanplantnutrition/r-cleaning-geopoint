@@ -1,5 +1,5 @@
 ---
-title: "A Procedure for Cleaning Geopoint Data in R"
+title: "An R Procedure for Cleaning and Standardizing Geopoint Data Taken with Smartphones in On-Farm Field Trials"
 format:
   plos-pdf:
     number-sections: false
@@ -10,6 +10,8 @@ format:
         % Remove comment for double spacing
         % \usepackage{setspace} 
         % \doublespacing
+crossref:
+  fig-title: Fig 
 author:
   - name: T. Scott Murrell
     equal-contributor: true
@@ -43,26 +45,25 @@ affiliations:
     country: USA
 abstract: |
   A procedure was developed to clean geopoint data collected from smartphones.
-bibliography: bibliography.bib 
+bibliography: bibliography.bib
 ---
 
-# Quarto
+# Introduction
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
-# Running Code
+# Materials and Methods
 
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
-```
+# Results
 
-You can add options to executable code like this
+# Discussion
 
-```{r}
-#| echo: false
-2 * 2
-```
+# Conclusions
 
-The `echo: false` option disables the printing of code (only output is displayed).
+# Acknowledgments
+
+# References
+
+# Supporting information captions

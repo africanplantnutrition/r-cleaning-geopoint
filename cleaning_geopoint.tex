@@ -178,9 +178,9 @@
   \newcommand\listtablename{List of Tables}
 \fi
 \ifdefined\figurename
-  \renewcommand*\figurename{Figure}
+  \renewcommand*\figurename{Fig}
 \else
-  \newcommand\figurename{Figure}
+  \newcommand\figurename{Fig}
 \fi
 \ifdefined\tablename
   \renewcommand*\tablename{Table}
@@ -204,7 +204,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={A Procedure for Cleaning Geopoint Data in R},
+  pdftitle={An R Procedure for Cleaning and Standardizing Geopoint Data Taken with Smartphones in On-Farm Field Trials},
   pdfauthor={T. Scott Murrell; Bernice Limo},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -218,8 +218,9 @@
 % Title must be 250 characters or less.
 \begin{flushleft}
 {\Large
-\textbf\newline{A Procedure for Cleaning Geopoint Data in
-R} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
+\textbf\newline{An R Procedure for Cleaning and Standardizing Geopoint
+Data Taken with Smartphones in On-Farm Field
+Trials} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
 }
 \newline
 \\
@@ -268,33 +269,31 @@ smartphones.
 
 \linenumbers
 
-\section{Quarto}\label{quarto}
+\section{Introduction}\label{introduction}
 
 Quarto enables you to weave together content and executable code into a
 finished document. To learn more about Quarto see
 \url{https://quarto.org}.
 
-\section{Running Code}\label{running-code}
+\section{Materials and Methods}\label{materials-and-methods}
 
 When you click the \textbf{Render} button a document will be generated
 that includes both content and the output of embedded code. You can
 embed code like this:
 
-\begin{verbatim}
-[1] 2
-\end{verbatim}
+\section{Results}\label{results}
 
-You can add options to executable code like this
+\section{Discussion}\label{discussion}
 
-\begin{verbatim}
-[1] 4
-\end{verbatim}
+\section{Conclusions}\label{conclusions}
 
-The \texttt{echo:\ false} option disables the printing of code (only
-output is displayed).
+\section{Acknowledgments}\label{acknowledgments}
+
+\section{References}\label{references}
 
 
 \nolinenumbers
+\renewcommand\refname{Supporting information captions}
   \bibliography{bibliography.bib}
 
 
