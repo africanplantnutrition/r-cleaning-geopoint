@@ -1,18 +1,20 @@
-\usepackage{authblk}
 \usepackage{hyperref}
 
-% Style tweaks (optional)
-\renewcommand\Authfont{\normalfont\bfseries\Large}
-\renewcommand\Affilfont{\normalfont\upshape\small}
-\setlength{\affilsep}{1em}  % spacing between authors
-
-% Authors and affiliations
 \title{Standard Operating Procedure:\\Cleaning Geopoint Data}
-\author{T. Scott Murrell}
-\author{Bernice Limo}
+\author{}
+\date{}
 
-\affil{African Plant Nutrition Institute\\
-\href{mailto:s.murrell@apni.net}{s.murrell@apni.net}\\
-\href{mailto:b.limo@apni.net}{b.limo@apni.net}}
-
-\date{Version 1.0 --- \today}
+\makeatletter
+\renewcommand\maketitle{%
+  \begin{center}
+    {\LARGE \@title \par}
+    \vskip 1em
+    {\small Version 1.0 --- \today\par}
+    \vskip 1.5em
+    {\large T. Scott Murrell and Bernice Limo\par}
+    {\small African Plant Nutrition Institute\par}
+    {\small \href{mailto:s.murrell@apni.net}{s.murrell@apni.net} \\
+           \href{mailto:b.limo@apni.net}{b.limo@apni.net}\par}
+  \end{center}
+}
+\makeatother
