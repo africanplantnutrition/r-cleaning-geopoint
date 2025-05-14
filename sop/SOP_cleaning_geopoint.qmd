@@ -22,7 +22,7 @@ Use this as a ruler for width restrictions during code and document development 
 
 # SOP Summary
 
-This standard operating procedure (SOP) cleans geopoint data.
+This standard operating procedure (SOP) cleans geopoint data. It locates
 
 # Load Required Packages
 
@@ -30,18 +30,11 @@ This standard operating procedure (SOP) cleans geopoint data.
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
 library(sf)
+library(tidyxl)
+library(tidyverse)
 library(stringr)
 
 
 
 
 ```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
